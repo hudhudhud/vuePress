@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 heroImage: /egg.png
 heroText: log
 tagline: 一点一滴都是进步

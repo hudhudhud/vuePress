@@ -9,21 +9,20 @@ module.exports = {
         //顶部导航栏
         nav: [           
             //格式一：直接跳转，'/'为不添加路由，跳转至首页
-            { text: '首页', link: '/' },    
+            { text: '首页', link: '/pages/flowFormAPI.html' },    
             
-            //格式二：添加下拉菜单，link指向的文件路径
-            {
-                text: '分类',  //默认显示        
-                ariaLabel: '分类',   //用于识别的label
-                items: [
-                    { text: '文章1', link: '/pages/folder1/test1.md' },  
-                    { text: '文章2', link: '/pages/folder2/test4.md' },  
-                ]
-            },
-            { text: '功能演示', link: '/pages/folder1/test3.md' },
+            // //格式二：添加下拉菜单，link指向的文件路径
+            // {
+            //     text: '选择语言',  //默认显示        
+            //     ariaLabel: '选择语言',   //用于识别的label
+            //     items: [
+            //         { text: '文章1', link: '/pages/folder1/test1.md' },  
+            //         { text: '文章2', link: '/pages/folder2/test4.md' },  
+            //     ]
+            // },
             
             //格式三：跳转至外部网页，需http/https前缀
-            { text: 'Github', link: 'https://github.com/dwanda' },
+            { text: 'Github', link: 'https://hudhudhud.github.io' },
         ],
         
         //侧边导航栏：会根据当前的文件路径是否匹配侧边栏数据，自动显示/隐藏
@@ -69,7 +68,7 @@ module.exports = {
         },
         sidebar:[
             {
-                path:'/pages/global.md',title:'全局对象/方法',collapsable:false,sidebarDepth:2
+                path:'/pages/flowFormAPI.md',title:'全局对象/方法',collapsable:false,sidebarDepth:2
             },
             {
                 path:'/pages/deptSelect.md',title:'部门选择（数据自定义）',sidebarDepth:0
