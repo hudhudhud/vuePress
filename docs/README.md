@@ -1,10 +1,10 @@
 ---
-home: false
+home: true
 heroImage: /egg.png
 heroText: log
 tagline: 一点一滴都是进步
 actionText: 马上进入 →
-actionLink: /pages/folder1/test1.md
+actionLink: /pages/flowFormAPI.md
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
