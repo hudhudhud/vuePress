@@ -212,13 +212,13 @@ function beforSubmit(formRes){
 ```json
 {
     "code": "", //企业微信域账号密文
-    "userId": "hys3032",//企业微信域账号
+    "userId": "xxx",//企业微信域账号
     "state": 1000020,
     //以下信息具体按照当前流程返回，若是新建流程，则无如下信息
-    "currentNodeId": "T10003", //当前流程节点id
-    "docId": "0f886b1c05cf9040090a622072f56b077f9b",//单据ID
-    "systemId": "IBPM",//系统ID
-    "workFlowId": "d0527c0907f8104c620815a07d3fca875f4f",//审批流ID
+    "currentNodeId": "xxx", //当前流程节点id
+    "docId": "xxxx",//单据ID
+    "systemId": "xxx",//系统ID
+    "workFlowId": "xxxx",//审批流ID
     "lang": "zh" //当前语言，zh:中文，en:英文
 }
 ```
