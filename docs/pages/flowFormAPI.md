@@ -1,4 +1,6 @@
 ##  flowFormAPI.getParamValue
+### 1
+### 2
 获取表单内某个组件值的方法，参数为组件对应的字段名
 例如：
 ```js
@@ -361,8 +363,8 @@ flowFormAPI.descPop({title:'标题',content:'内容',height:200,onClose:function
    //当前页面路径为：/workflow-form/26?currentNodeId=1&docId=2&systemId=3&workFlowId=4
    // flowFormAPI.location为
     {
-        query:{currentNodeId:"1",docId:"2",systemId:"2",workFlowId:"2"},
-        params:{orunid:"26"} //orunid为内部定义，无需理会
+        "query":{"currentNodeId":"1","docId":"2","systemId":"2","workFlowId":"2"},
+        "params":{"orunid":"26"} //orunid为内部定义，无需理会
     }
 ``` 
  

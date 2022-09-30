@@ -71,11 +71,41 @@ module.exports = {
                 path:'/pages/flowFormAPI.md',title:'全局对象/方法',collapsable:false,sidebarDepth:2
             },
             {
+                path:'/pages/input.md',title:'输入框',sidebarDepth:0
+            },
+            {
+                path:'/pages/textarea.md',title:'多文本输入框',sidebarDepth:0
+            },
+            {
+                path:'/pages/picker.md',title:'下拉选择',sidebarDepth:0
+            },
+            {
+                path:'/pages/dateTimePicker.md',title:'时间选择',sidebarDepth:0
+            },
+            {
+                path:'/pages/radio.md',title:'单选',sidebarDepth:0
+            },
+            {
+                path:'/pages/checkbox.md',title:'单个复选框',sidebarDepth:0
+            },
+            {
+                path:'/pages/fileUpload.md',title:'文件上传',sidebarDepth:0
+            },
+            {
+                path:'/pages/dateTimePicker.md',title:'时间选择',sidebarDepth:0
+            },
+            {
+                path:'/pages/searchSelect.md',title:'搜索选择',sidebarDepth:0
+            },
+            {
+                path:'/pages/cascaderselect.md',title:'级联选择',sidebarDepth:0
+            },
+            {
                 path:'/pages/deptSelect.md',title:'部门选择（数据自定义）',sidebarDepth:0
             },
             {
                 path:'/pages/detail.md',title:'明细组件',collapsable:false,sidebarDepth:1
             }
-        ]
+        ],
     }
 }
